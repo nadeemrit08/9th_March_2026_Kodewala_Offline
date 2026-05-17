@@ -1,6 +1,6 @@
 package com.kodewala.equalsexp;
 
-class final InternChild {
+class  InternChild {
 
 }
 

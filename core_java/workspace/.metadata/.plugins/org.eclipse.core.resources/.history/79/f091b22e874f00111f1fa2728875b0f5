@@ -1,8 +1,0 @@
-package in.collection.arrayList;
-
-public class MergeArrayList {
-
-	public static void main(String[] args) {
-		
-	}
-}
