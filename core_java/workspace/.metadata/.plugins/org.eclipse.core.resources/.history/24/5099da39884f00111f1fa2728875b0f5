@@ -1,0 +1,59 @@
+package in.collection.arrayList;
+
+import java.util.ArrayList;
+
+public class MergeArrayList {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> students = new ArrayList<>();
+
+		students.add("Nadeem");
+		students.add("Raja");
+		students.add("Aman");
+		students.add("Rani");
+		students.add("John");
+		students.add("Naeem");
+		students.add("Kohli");
+		students.add("Rehman");
+		students.add("Mohit");
+		students.add("Yaseen");
+
+		ArrayList<String> cities = new ArrayList<>();
+
+		cities.add("Delhi");
+		cities.add("Mumbai");
+		cities.add("Pune");
+		cities.add("Hyderabad");
+		cities.add("Bangalore");
+		cities.add("Chennai");
+		cities.add("Kolkata");
+		cities.add("Jaipur");
+		cities.add("Lucknow");
+		cities.add("Goa");
+
+		ArrayList<String> countries = new ArrayList<>();
+
+		countries.add("India");
+		countries.add("USA");
+		countries.add("Canada");
+		countries.add("Australia");
+		countries.add("Germany");
+		countries.add("France");
+		countries.add("Japan");
+		countries.add("China");
+		countries.add("Brazil");
+		countries.add("Russia");
+
+		students.addAll(cities);
+		for (String mergeList : students) {
+			System.out.println(mergeList);
+		}
+		
+		
+		ArrayList<String> finalList = new ArrayList<String>();
+		finalList.addAll(students)
+		finalList.addAll(cities);
+		finalList.addAll(countries);
+	}
+}

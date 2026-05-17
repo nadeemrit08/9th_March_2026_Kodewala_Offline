@@ -1,0 +1,17 @@
+package in.collection.arrayList;
+
+import java.util.ArrayList;
+
+public class RemoveElement {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> students = new ArrayList<String>();
+		students.add("Nadeem");
+		students.add("Ahmad");
+		students.add("Raja");
+		students.add("Rani");
+		
+		System.out.println(" Before removing " + students);
+	}
+}

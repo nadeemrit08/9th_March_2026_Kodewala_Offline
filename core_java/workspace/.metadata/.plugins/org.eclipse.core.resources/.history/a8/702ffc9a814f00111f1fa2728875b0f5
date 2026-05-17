@@ -1,0 +1,19 @@
+package in.collection.arrayList;
+
+import java.util.ArrayList;
+
+public class AccessElementUsingIndex {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> cities = new ArrayList<String>();
+		cities.add("Delhi");
+		cities.add("Noida");
+		cities.add("Banglore");
+
+		System.out.println(cities.get(0));
+		System.out.println(cities.get(cities.size() - 1));
+		System.out.println(cities.get(cities.size() - 2));
+		
+	}
+}

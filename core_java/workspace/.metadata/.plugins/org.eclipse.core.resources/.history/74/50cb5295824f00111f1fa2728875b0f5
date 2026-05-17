@@ -1,0 +1,28 @@
+package in.collection.arrayList;
+
+import java.util.ArrayList;
+
+public class RemoveElement {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> students = new ArrayList<String>();
+		students.add("Nadeem");
+		students.add("Ahmad");
+		students.add("Raja");
+		students.add("John");
+		students.add("Parveen");
+		students.add("Aamir");
+		students.add("Suresh");
+		students.add("Bishnoi");
+
+		System.out.println(" Before removing " + students);
+		students.remove(3);
+		System.out.println("index based " + students);
+		students.remove("Ahmad");
+		System.out.println("RemoveElement.main(Ahmad)");
+		students.removeFirst();
+		System.out.println("RemoveElement.main()");
+		System.out.println(" Before removing " + students);
+	}
+}

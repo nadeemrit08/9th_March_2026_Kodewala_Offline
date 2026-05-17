@@ -1,0 +1,14 @@
+package in.collection.arrayList;
+
+class Employee {
+	int empId;
+	String empName;
+	int empAge;
+}
+
+public class StoreCustomObjects {
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,21 @@
+package in.collection.arrayList;
+
+import java.util.ArrayList;
+
+public class ConvertArrayListIntoArray {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> names = new ArrayList<String>();
+		names.add("Nadeem");
+		names.add("Ahmad");
+		names.add("Raju");
+		names.add("Rani");
+
+		String[] arr = names.toArray(new String[0]);
+		
+		for(String name : arr) {
+			System.out.println(name);
+		}
+	}
+}
