@@ -1,0 +1,14 @@
+server:
+    port: 8888
+
+spring:
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/nadeem-fullstack-developer/9th_March_2026_Kodewala_Offline.git
+                    default-label: main
+                    clone-on-start: true
+                    search-paths: spring-boot/9th_march_2026
+    application:
+        name: config server

@@ -1,0 +1,24 @@
+2026-10-14 09:53:11.528 [RMI TCP Connection(17)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:11.528 [RMI TCP Connection(16)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:11.564 [RMI TCP Connection(18)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:11.622 [RMI TCP Connection(19)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:11.658 [RMI TCP Connection(20)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:11.796 [RMI TCP Connection(16)-192.168.1.114] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application INVOICE-SERVICE with eureka with status DOWN
+2026-10-14 09:53:11.802 [RMI TCP Connection(16)-192.168.1.114] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1791951791801, current=DOWN, previous=UP]
+2026-10-14 09:53:11.804 [RMI TCP Connection(21)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:11.805 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/DESKTOP-OUICJIF:invoice-service:8081: registering service...
+2026-10-14 09:53:11.926 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/DESKTOP-OUICJIF:invoice-service:8081 - registration status: 204
+2026-10-14 09:53:12.059 [RMI TCP Connection(22)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:12.268 [RMI TCP Connection(23)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:12.498 [RMI TCP Connection(24)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:12.639 [RMI TCP Connection(16)-192.168.1.114] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-14 09:53:12.678 [RMI TCP Connection(25)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:12.888 [RMI TCP Connection(26)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:13.111 [RMI TCP Connection(27)-192.168.1.114] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-14 09:53:14.181 [RMI TCP Connection(16)-192.168.1.114] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14 09:53:14.526 [RMI TCP Connection(16)-192.168.1.114] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-14 09:53:14.844 [RMI TCP Connection(16)-192.168.1.114] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-14 09:53:14.930 [RMI TCP Connection(16)-192.168.1.114] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-10-14 09:53:17.935 [RMI TCP Connection(16)-192.168.1.114] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-10-14 09:53:17.984 [RMI TCP Connection(16)-192.168.1.114] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/DESKTOP-OUICJIF:invoice-service:8081 - deregister  status: 200
+2026-10-14 09:53:17.988 [RMI TCP Connection(16)-192.168.1.114] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

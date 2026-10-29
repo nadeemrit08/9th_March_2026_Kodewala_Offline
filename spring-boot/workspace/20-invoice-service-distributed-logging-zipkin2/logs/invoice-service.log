@@ -1,0 +1,39 @@
+2026-10-15 18:30:16.523 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-15 18:30:16.655 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application INVOICE-SERVICE with eureka with status DOWN
+2026-10-15 18:30:16.657 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1792069216657, current=DOWN, previous=UP]
+2026-10-15 18:30:16.661 [DiscoveryClient-InstanceInfoReplicator-%d] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/DESKTOP-OUICJIF:invoice-service:8081: registering service...
+2026-10-15 18:30:16.755 [DiscoveryClient-InstanceInfoReplicator-%d] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/DESKTOP-OUICJIF:invoice-service:8081 - registration status: 204
+2026-10-15 18:30:16.946 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-15 18:30:17.310 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-15 18:30:17.354 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-15 18:30:17.448 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-15 18:30:17.901 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-10-15 18:30:20.914 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-10-15 18:30:21.049 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/DESKTOP-OUICJIF:invoice-service:8081 - deregister  status: 200
+2026-10-15 18:30:21.052 [RMI TCP Connection(15)-192.168.0.25] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

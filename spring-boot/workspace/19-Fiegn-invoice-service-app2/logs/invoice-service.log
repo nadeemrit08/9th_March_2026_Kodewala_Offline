@@ -1,0 +1,3 @@
+2026-10-16 19:32:24.503 [AsyncResolver-bootstrap-executor-%d] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
